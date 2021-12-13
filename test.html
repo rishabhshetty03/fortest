@@ -1,0 +1,49 @@
+<html>
+<head>
+
+
+</head>
+
+<body>
+    <div style="width:50%; margin:0 auto;">
+<form >
+<label>Name *</label><br>
+
+<input type="text" id="nam" style="border-radius:5px;width:80%;height: 15%;"/><br>
+<span></span>
+<br>
+<label>Email *</label><br>
+<input type="email" id="email" style="border-radius:5px;width:80%;height: 15%;"><br>
+<br>
+<button type="button" onclick="onsubm()">submit</button>
+</form>
+</div>
+<script>
+    function onsubm(){
+       if(document.getElementById('nam').value=='')
+    {
+        document.getElementById('nam').style.borderColor="red";
+        alert("errp")
+    
+        document.getElementsByTagName('span')[0].innerHTML="name is requird"
+        
+    }
+    }
+    
+    
+    
+    nam.onblur=function() {
+    
+    document.getElementById('nam').style.borderColor="red";
+    }
+
+    nam.onfocus=function() {
+    
+    document.getElementById('nam').style.borderColor="none";
+    }
+
+    </script>
+</body>
+
+
+</html>
