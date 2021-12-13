@@ -1,0 +1,3 @@
+https://pirateproxy.surf/search.php?q=Microsoft+office&all=on&search=Pirate+Search&page=0&orderby=
+
+$event.keyCode == 13 (to Test key which was fired) here 13 keycode is enter
