@@ -1,9 +1,0 @@
-// this.contactlist.map(a=>{
-    //   if(a.name==search.value.search||a.designation==search.value.search)
-    //   {
-    // this.contactlist=[{name:a.name,phone:a.phone,designation:a.designation,email:a.email}];
-    // console.log(this.contactlist)
-    //   }
-
-    // }
-    //  )
